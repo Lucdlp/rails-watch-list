@@ -52,6 +52,9 @@ group :development do
   gem 'spring'
 
   gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+
+  gem 'dotenv-rails', groups: [:development, :test]
+
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
